@@ -6,7 +6,11 @@ repository: https://github.com/onepub-dev/dcli
 environment:
   sdk: '>=3.0.0 <4.0.0'
 dependencies:
-  dart_console: ^4.0.0
+  #dart_console: ^4.0.0
+  dart_console:
+    git:
+      url: https://github.com/onepub-dev/dart_console.git
+      ref: main
 dev_dependencies:
   lint_hard: ^5.0.0
   test: ^1.23.1
