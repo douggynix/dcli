@@ -22,7 +22,7 @@ dependencies:
       ref: main
   dcli_common: ^7.0.2
   dcli_core: ^7.0.2
-  dcli_terminal: ^7.0.2
+  dcli_terminal: ^7.0.4
   equatable: ^2.0.0
   ffi: ^2.0.0
   file: ^7.0.0
